@@ -33,4 +33,6 @@ explore: lookml_sorting {
   }
 
 }
+explore: access_grants {
 
+}
