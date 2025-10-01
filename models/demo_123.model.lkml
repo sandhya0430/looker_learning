@@ -35,7 +35,7 @@ explore: lookml_sorting {
 }
 access_grant: user {
   user_attribute: user
-  allowed_values: ["Nishok"]
+
 
 }
 explore: access_grants {
