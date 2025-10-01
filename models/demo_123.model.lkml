@@ -4,7 +4,7 @@ include:"/views/user_pdt.view.lkml"
 
 datagroup: user_datagroup {
 
-  sql_trigger: SELECT MAX(id) FROM `elastic-pocs.Super_Store_Sales.Users` ;;
+  sql_trigger: SELECT MAX(id) FROM `elastic-pocs.Super_Store_Sales.Users_details` ;;
   max_cache_age: "24 hours"
 }
 
