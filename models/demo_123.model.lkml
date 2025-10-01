@@ -4,6 +4,15 @@ include:"/views/user_pdt.view.lkml"
 
 datagroup: user_datagroup {
 
-  sql_trigger: SELECT MAX(id) FROM `elastic-pocs.Super_Store_Sales.order_details` ;;
+  sql_trigger: SELECT MAX(id) FROM `elastic-pocs.Super_Store_Sales.Users` ;;
   max_cache_age: "24 hours"
+}
+
+explore: user_pdt {
+  join: user_details {
+    type: left_outer
+    sql: ${user_details.id}=${user_pdt.id} ;;
+    relationship: one_to_many
+  }
+
 }
