@@ -33,6 +33,10 @@ explore: lookml_sorting {
   }
 
 }
+access_grant: region_access {
+  user_attribute: user
+  allowed_values: ["Sandhya"]
+}
 explore: access_grants {
 
 }
