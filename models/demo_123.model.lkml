@@ -33,7 +33,7 @@ explore: lookml_sorting {
   }
 
 }
-access_grant: region_access {
+access_grant: user {
   user_attribute: user
 
 }
