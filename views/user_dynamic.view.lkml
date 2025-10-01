@@ -22,4 +22,4 @@ view: user_dynamic {
   }
 
 
- }
+}
