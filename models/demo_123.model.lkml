@@ -1,6 +1,7 @@
 connection: "connection_demo_321"
 include: "/views/*.view.lkml"
 include:"/views/user_pdt.view.lkml"
+include: "/views/user_dynamic.view.lkml"
 
 datagroup: user_datagroup {
 
