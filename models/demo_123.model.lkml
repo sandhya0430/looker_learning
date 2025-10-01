@@ -1,6 +1,6 @@
 connection: "connection_demo_321"
-
-include: "/views/*.view.lkml"                # include all views in the views/ folder in
+include: "/views/*.view.lkml"
+include:"/views/user_pdt.view.lkml"
 
 datagroup: user_datagroup {
 
