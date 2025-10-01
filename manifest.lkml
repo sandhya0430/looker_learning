@@ -6,7 +6,7 @@ project_name: "demo_123"
 # local_dependency: {
 #   project: "name_of_other_project"
 # }
-remote_dependency:myproject{
-  url: "https://github.com/sandhyadhanpal/looker_learning.git"
-  ref: "master"
-}
+# remote_dependency:myproject{
+#   url: "https://github.com/sandhyadhanpal/looker_learning.git"
+#   ref: "master"
+# }

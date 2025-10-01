@@ -17,3 +17,20 @@ explore: user_pdt {
   }
 
 }
+explore: user_dynamic {
+  label: "user_dynamic"
+}
+explore: lookml_sorting {
+  join: user_details {
+    type: left_outer
+        #for dimension and measure we should use sql
+        #for joining two tables we should use sql_on
+
+      sql_on: ${user_details.id} = ${lookml_sorting.id} ;;
+
+
+    relationship: one_to_many
+  }
+
+}
+
