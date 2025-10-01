@@ -1,8 +1,8 @@
 view: user_pdt {
   derived_table: {
     sql: SELECT ID,
-    COUNT(DISTINCT user_name) AS number_of_users,
-        COUNT(DISTINCT email) AS number_of_emails,
+    COUNT(user_name) AS number_of_users,
+        COUNT(email) AS number_of_emails,
         COUNT(*) AS user_count
      FROM `elastic-pocs.Super_Store_Sales.Users`
     GROUP BY ID
